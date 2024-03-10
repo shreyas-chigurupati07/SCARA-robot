@@ -21,12 +21,10 @@ This project involves the development and control of a SCARA robot within the RO
 1. Launch Gazebo with the SCARA robot:
 `roslaunch rrp_gazebo gazebo.launch`
 2. Launch the position controller:
-
 `roslaunch rrp_control rrp_effort_control.launch`
-
-3. Execute the position control script:
+4. Execute the position control script:
 `rosrun rrp_control rrp_pos_controller.py`
-4. To set the desired joint position, use:
+5. To set the desired joint position, use:
 `rosservice call /set_joint_position "position: 0.2"`
 
 ## Results
